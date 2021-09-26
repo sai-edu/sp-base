@@ -7,5 +7,5 @@ NETWORKS=(
 )
 
 for network in ${NETWORKS[@]}; do
-    ./create-network "sp-${network}"
+    ./create-network.sh "sp-${network}"
 done
